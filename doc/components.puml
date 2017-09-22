@@ -1,0 +1,5 @@
+@startuml
+"Google Drive" -> "Sync File Store": Download
+"Sync File Store" -> "Sync File Store" : Transform from markdown to evernote format(html?)
+"Sync File Store" -> Evernote
+@enduml
